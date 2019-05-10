@@ -1,0 +1,273 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1.2;
+}
+ol { 
+  padding-left: 1.4em;
+  list-style: decimal;
+}
+ul {
+  padding-left: 1.4em;
+  list-style: square;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+body {
+  min-width: 300px;
+  font-family: "Arial Black",Georgia, "Times New Roman", Times, serif;
+  color: grey;
+  font-size: 16px;
+  font-weight: normal; /*начертание шрифта*/
+  background:#3f3f3f url(img/lapi2.png);
+  background-size: cover;/*фоновое изображение по высоте и ширине*/
+}
+
+.title{
+  width: 70%;
+  margin-top: 35px;
+  display: flex;
+ /* margin-left: 27%;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title p{
+  font-size: 80px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  font-family: Georgia;
+  color:#e90b4a;
+  letter-spacing: .1em;/*интервал между символами в пределах элемента*/
+  text-shadow: 2px 2px white, 4px 4px #D7CC88;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.img img{
+ margin-top:30px;
+ width: 140px;
+ float: left;
+}
+
+.row{
+  margin: auto;
+}
+.menu{
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding-top: 25px;
+ }
+
+ul.menu li  {
+  padding: 15px;
+  list-style: none;/*отсутствие маркера*/
+  border-radius: 15px;
+  display: inline-block;/*строчное расположение в блоке row*/
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.button{
+  text-decoration:none; 
+ padding:7px 25px; 
+ border:solid 1px #dbeb2f; 
+ border-radius: 28px; 
+ font:18px "Arial Black", "Georgia", sans-serif; 
+ font-weight:bold; 
+ color:#f2ed66; 
+ background-color:#d90726; 
+ background-image: -webkit-linear-gradient(top, #d90726 0%, #e8994f 100%); 
+ box-shadow:-5px -5px 10px #edc937, inset -5px 3px 5px #f09999;  
+ opacity:0.99; 
+ text-shadow: 2px -3px 6px #6cb358; 
+}
+
+a:hover{
+  background:yellow;
+  color: #f7852a;
+}
+
+.slider{
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 60px;
+  width: 1000px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 1) 0px 3px 10px;
+  
+  /*position: relative;
+  list-style-type: none;*/
+  }
+
+.slide{
+  margin: 5% 10%;
+  width: 80%;
+ 
+ /*position: absolute;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.showing{
+  opacity: 1;
+  z-index: 2;*/
+}
+
+.par  {
+  font: 1.4em/140% "Arial Black",Georgia, "Times New Roman", Times, serif;
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 20px;
+  position: relative;/*Положение элемента устанавливается относительно его исходного места*/
+  width: 90%;
+  box-shadow: rgb(223, 239, 16) 2px 0px 22px;
+  /*центрируем по горизонтали*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.row.main{
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgb(223, 239, 16) 2px 0px 22px;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 2px 15px;
+}
+
+.prijut{
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 20px;
+  position: relative;
+  width: 70%; 
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: rgb(223, 239, 16) 4px 0px 10px;
+  opacity: 0.9;
+}
+
+.kontakti{
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 20px;
+  position: relative;
+  width: 30%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  box-shadow: rgb(223, 239, 16) 4px 0px 10px;
+  opacity: 0.9;
+}
+
+.info{
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 20px;
+  position: relative;
+  width: 90%;
+  box-shadow: rgb(223, 239, 16) 2px 0px 22px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.cmc{
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 20px;
+  position: relative;
+  width: 70%; 
+  margin-top: 30px;
+  margin-bottom: 20px;
+  box-shadow: rgb(223, 239, 16) 4px 0px 10px;
+  opacity: 0.9;
+}
+
+.field-block{
+  margin-top:20px;
+}
+
+footer{
+  height: 100px;
+  background-color: #1e1f22;
+  width: 100%;
+}
+
+p.year{
+  margin-right: 10% ;
+  float: right;
+  margin-top: 15px;
+}
+
+h2 {
+  color: #d90726;
+  text-shadow:
+  0px -2px 4px #fff,
+  0px -2px 10px #FF3,
+  0px -10px 20px #F90,
+  0px -20px 40px #C33;
+  font-family: "Arial Black",Georgia, "Times New Roman", Times, serif;
+}
+
+p u{
+  color:#f7ac2a;
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+  .container {
+    float: none;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 768px){
+    .container {
+     width: 80%;
+   } 
+
+
+
