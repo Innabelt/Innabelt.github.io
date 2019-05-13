@@ -43,7 +43,7 @@ body {
   width: 70%;
   margin-top: 35px;
   display: flex;
- /* margin-left: 27%;*/
+  /* margin-left: 27%;*/
   margin-left: auto;
   margin-right: auto;
 }
@@ -79,7 +79,7 @@ body {
   margin: auto;
   width: 90%;
   padding-top: 25px;
- }
+}
 
 ul.menu li  {
   padding: 15px;
@@ -94,17 +94,17 @@ ul.menu li  {
 
 .button{
   text-decoration:none; 
- padding:7px 25px; 
- border:solid 1px #dbeb2f; 
- border-radius: 28px; 
- font:18px "Arial Black", "Georgia", sans-serif; 
- font-weight:bold; 
- color:#f2ed66; 
- background-color:#d90726; 
- background-image: -webkit-linear-gradient(top, #d90726 0%, #e8994f 100%); 
- box-shadow:-5px -5px 10px #edc937, inset -5px 3px 5px #f09999;  
- opacity:0.99; 
- text-shadow: 2px -3px 6px #6cb358; 
+  padding:7px 25px; 
+  border:solid 1px #dbeb2f; 
+  border-radius: 28px; 
+  font:18px "Arial Black", "Georgia", sans-serif; 
+  font-weight:bold; 
+  color:#f2ed66; 
+  background-color:#d90726; 
+  background-image: -webkit-linear-gradient(top, #d90726 0%, #e8994f 100%); 
+  box-shadow:-5px -5px 10px #edc937, inset -5px 3px 5px #f09999;  
+  opacity:0.99; 
+  text-shadow: 2px -3px 6px #6cb358; 
 }
 
 a:hover{
@@ -117,31 +117,26 @@ a:hover{
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 60px;
   width: 1000px;
+  height: 550px;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: rgba(0, 0, 0, 1) 0px 3px 10px;
-  
-  /*position: relative;
-  list-style-type: none;*/
-  }
+  position: relative;
+}
 
 .slide{
+  position: absolute;
   margin: 5% 10%;
   width: 80%;
- 
- /*position: absolute;
   opacity: 0;
   z-index: 1;
-  -webkit-transition: opacity 1s;
-  -moz-transition: opacity 1s;
-  -o-transition: opacity 1s;
   transition: opacity 1s;
 }
 
 .showing{
   opacity: 1;
-  z-index: 2;*/
+  z-index: 2;
 }
 
 .par  {
@@ -153,7 +148,6 @@ a:hover{
   position: relative;/*Положение элемента устанавливается относительно его исходного места*/
   width: 90%;
   box-shadow: rgb(223, 239, 16) 2px 0px 22px;
-  /*центрируем по горизонтали*/
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -268,6 +262,3 @@ p u{
     .container {
      width: 80%;
    } 
-
-
-

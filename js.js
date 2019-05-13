@@ -5,14 +5,12 @@ function carousel() {
   let i;
   let x = document.getElementsByClassName("slide");
   for (i = 0; i < x.length; i++) {
-  	x[i].className = 'slide';
-    x[i].style.display = "none";  
+  	x[i].className = 'slide'; 
   }
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}   
-  x[myIndex-1].className = 'slide  showing'; 
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 3000); // Change image every 3 seconds
+  x[myIndex-1].className = 'slide showing'; 
+  setTimeout(carousel, 4000); // Change image every 3 seconds
 }
 
 
